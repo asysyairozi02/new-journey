@@ -1,0 +1,53 @@
+//main function
+
+/*fun main(){
+        println("Halo Dunia!")
+}
+*/
+// single line comment
+/*
+multi-line comment
+ */
+
+/* fungsi main() merupakan sebuah fungsi yang wajib didefinisikan ketika membuat sebuah program.
+fungsi main() merupakan sebuah entry point yang otomatis akan dipanggil ketika program dijalankan.
+
+fungsi println() digunakan untuk mencetak teks ke dalam layar atau konsol. Fungsi println() membutuhkan
+satu argumen berupa message dengan tipe data yang dikehendaki.
+ */
+
+/*fun main() {
+    val name = "Ahmad"
+
+    print("Hello my name is ")
+    println(name)
+    print(if (true) "always true" else "always flase")
+}
+ */
+
+/* Data types & Variable
+Data type atau tipe data adalah sebuah pengklasifikasian data berdasarkan jenis data tersebut.
+untuk mengembangkan sebuah program, ada beberapa tipe data yang akan dipelajari.
+Di antaranya adalah Character,String,Array,Numbers dan Booleans.
+
+Variabel digunakan untuk menyimpan informasi atau nilai yang akan dikelola dalam sebuah program.
+Sebuah variabel akan membutuhkan kata kunci var atau val, identifier, type dan initialization.
+var identifier: Type = initialization
+ contoh :
+ var company: String = "Dicoding"
+
+ Perbedaan dari var dan val adalah nilai inisialisasi var bisa diubah, sedangkan val tidak.
+ Identifier: merupakan nama dari sebuah variabel.
+ Type: merupakan tipe data yang digunakan, ini dibutuhkan agar kompiler dapat mengetahui bagaimana sebuah
+ data akan digunakan.
+ */
+
+/*fun main(){
+    val text: String? = null
+    val textLength = text?.length ?: 7
+    println(text)
+} /*
+
+     Rangkuman(){}
+     Kotlin Fundamental
+ */
